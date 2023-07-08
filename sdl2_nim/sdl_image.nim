@@ -32,8 +32,8 @@ import
 # Printable format: "$1.$2.$3" % [MAJOR, MINOR, PATCHLEVEL]
 const
   MAJOR_VERSION* = 2
-  MINOR_VERSION* = 0
-  PATCHLEVEL* = 5
+  MINOR_VERSION* = 6
+  PATCHLEVEL* = 3
   COMPILEDVERSION* = versionNum(MAJOR_VERSION, MINOR_VERSION, PATCHLEVEL) ##  \
     ##  This is the version number const for the current SDL_image version.
 

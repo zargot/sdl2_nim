@@ -46,8 +46,8 @@ type
 # Printable format: "$1.$2.$3" % [MAJOR, MINOR, PATCHLEVEL]
 const
   MAJOR_VERSION* = 2
-  MINOR_VERSION* = 0
-  PATCHLEVEL* = 14
+  MINOR_VERSION* = 28
+  PATCHLEVEL* = 1
 
 template version*(x: untyped) = ##  \
   ##  Template to determine SDL version program was compiled against.
